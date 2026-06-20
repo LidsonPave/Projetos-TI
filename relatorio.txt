@@ -1,0 +1,14 @@
+RELATÓRIO DE SCAN
+==============================
+Alvo: 127.0.0.1
+
+Portas abertas:
+
+Portas fechadas:
+21
+22
+23
+25
+80
+443
+8080
