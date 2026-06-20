@@ -1,25 +1,63 @@
 # Network Port Scanner 🔍
 
-A lightweight and interactive Python script designed to audit network security by scanning common ports on a target IP address.
+A Python-based network auditing tool developed for learning computer networks, cybersecurity, and socket programming.
 
 ## 🚀 Features
-- **Interactive Input:** Prompts the user to enter any target IP dynamically.
-- **Targeted Scanning:** Checks the most common service ports (21, 22, 23, 25, 80, 443, 8080).
-- **Optimized Performance:** Uses a 0.5-second connection timeout to ensure rapid analysis.
 
-## 🛠️ How to Run
+* Interactive target IP input
+* Fast TCP port scanning
+* Detection of open and closed ports
+* Automatic report generation
+* Hostname resolution (when available)
+* Lightweight and terminal-friendly
 
-1. Ensure you have Python installed:
-```bash
-python --version
+## 🛠 Technologies
+
+* Python 3
+* Socket Library
+* Git
+* GitHub
+* Termux
+
+## 📂 Project Structure
+
+```
+Projetos-TI/
+│
+├── scan_portas.py
+├── relatorio.txt
+└── README.md
 ```
 
-2. Execute the script:
+## ▶ Running the Project
+
 ```bash
 python scan_portas.py
 ```
 
-3. Enter the target IP address when prompted.
+Enter the target IP address when prompted.
+
+Example:
+
+```text
+Digite o IP do alvo: 127.0.0.1
+```
+
+## 🎯 Learning Goals
+
+This project was created to practice:
+
+* Computer Networks
+* TCP/IP Fundamentals
+* Python Programming
+* Git & GitHub
+* Cybersecurity Basics
+
+## 📜 Disclaimer
+
+Use this tool only on systems and networks that you own or have explicit authorization to test.
 
 ---
-*Maintained by [Lidson Pave](https://github.com)*
+
+Developed by Lidson Pave
+
